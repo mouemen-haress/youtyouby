@@ -1,0 +1,17 @@
+ .watch-icon {
+     position: absolute;
+     bottom: 5px;
+     right: 20px;
+ }
+ 
+ .watch-icon:hover {
+     cursor: pointer;
+ }
+ 
+ .more {
+     display: none;
+ }
+ 
+ .card-inner {
+     display: none;
+ }

@@ -1,0 +1,32 @@
+#search-filters-icon {
+    cursor: pointer;
+}
+
+.filter-column {
+    display: none;
+}
+
+input:checked+span {
+    color: #bf40bf;
+}
+
+time {
+    bottom: 7px;
+    left: 29px;
+}
+
+.card-body {
+    min-width: 0px;
+}
+
+@media(max-width:768px) {
+    .card .card-top-image {
+        width: 100%;
+    }
+    .card .card-horizontal time {
+        left: 10px;
+    }
+    .card .card-horizontal fa-play {
+        right: 48px;
+    }
+}

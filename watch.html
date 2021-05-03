@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0" />
+    <title> يوتيوبي | مشاهدة </title>
+    <link rel="stylesheet" href="css/bootstrap-rtl.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/watch.css" />
+
+
+</head>
+
+<body class="mt-5 rtl">
+    <div id="top-menu">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top py-3 ">
+
+                <i class="fas fa-bars fa-lg" id="toggler"> </i>
+                <b>
+                <a class="navbar-brand" href="index.html">يوتيوبي</a></b>
+                <span class="video-icon p-2 "> <i class="fas fa-play-circle"></i></span>
+
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-lg-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link px-3 ml-1" href="#">الفيديوهات القترحة <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ml-lg-3 px-3 ml-1" href="#">المرفوعة حديثا</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link  px-3 ml-1" href="#" tabindex="-1" aria-disabled="true">الفيديوهات الرائجة</a>
+                        </li>
+
+
+                    </ul>
+                    <div class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button onclick="location.href='search.html';" class="btn btn-outline-info my-2 my-sm-0 " type="submit">ابحث</button>
+                    </div>
+
+                </div>
+
+
+                <i class="fas fa-search mr-4 search-icon"></i>
+                <a class="nav-link login" href="#" tabindex="-1" aria-disabled="true" data-toggle="modal" data-target="#loginModel"> 
+                    تسجيل الدخول</a>
+            </nav>
+
+            <input type="search" class="form-control search-input" placeholder="ابحث عن ......." />
+
+            <!-- Modal -->
+            <div class="modal fade " id="loginModel" tabindex="-1">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header ">
+                            <h5 class="modal-title" id="exampleModalLabel">تسجيل الدخول </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="email" class="col-form-label">البريد الالكتروني</label>
+                                    <input type="email" class="form-control" id="email">
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="password" class="col-form-label">كلمة المرور</label>
+                                    <input type="password" class="form-control" id="password">
+                                </div>
+                            </form>
+
+                        </div>
+                        <div class="modal-footer">
+                            <a href=" ">نسيت كلمة المرور </a>
+                            <a href=" " class="mx-auto">انشاء حساب </a>
+
+
+                            <button type="button" class="btn btn-primary">دخول  </button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Left menu-->
+
+            <div class="row pt-4">
+                <div id="wrap">
+                    <div class="slidbar">
+                        <ul class="list-group list-group-flush pl-0">
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="log.html" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i>سجل المشاهدة
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+                            <a href="" class="list-group-item list-group-item-action">
+                                <i class="fas fa-home mr-2 purple "></i> الصفحة الرئيسية
+                            </a>
+
+                        </ul>
+                    </div>
+                </div>
+                <!-- video header-->
+
+                <div class="wacth-page pt-5">
+                    <div class="container-fluid">
+                        <div class="card border-0">
+                            <div class="row">
+                                <div class="col-lg-7  ">
+                                    <video src="video/hsoub.mp4" controls poster="img/mostaql.png" class="w-100">
+                            <code>video </code> your Browser Dont support video 
+                        </video>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="card-block">
+                                        <small class="text-muted ">
+                                <i class="fas fa-film"></i><span> 3 ألاف مشاهدة </span>
+                                <i class="far fa-clock"></i><span> قبل 9 أشهر     </span>
+                                
+                                <a href="channel.html" class="channel-img">
+                                    <img src="img/ch-logo.png" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                                    <span class="card-text"> أكاديمية حسوب </span>
+                                </a>
+                            </small>
+
+                                        <a href="watch.html">
+                                            <h4 class="card-title">كيف تستخدم أدوات DexTools </h4>
+                                        </a>
+                                        <p class="card-text">هناك ما هناك عدة اشياء كي نحاول فهم ما لا يفهم احيانا في حياتنا الحياتية هنا ناك ما
+                                            <span id="dots">....</span>
+                                            <span id="more">هناك عدة اشياء كي نحاول فهم ما لا يفهم احيانا في حياتنا الحياتية هنا</span> </p>
+                                        <button id="mybtn" class="btn mb-4"> عرض المزيد</button>
+
+                                    </div>
+
+                                    <div class="watch-icon ">
+                                        <i class="far fa-heart mr-1 bg-secondary p-1 rounded-circle text-white" title="أحببته "></i>
+                                        <i class="far fa-clock mr-1 bg-secondary p-1 rounded-circle text-white" title=""></i>
+                                        <i class="far fa-share-square mr-1 bg-secondary p-1 rounded-circle text-white" title=""></i>
+                                        <i class="far fa-play-circle mr-1 bg-secondary p-1 rounded-circle text-white" title=""></i>
+                                        <span class="ml-3">ابلاغ </span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4 mx-0">
+                        <!--Comment -->
+
+                        <div class="col-lg-7 order-2 order-lg-1">
+                            <div class="comment">
+                                <div class="comments-details mb-3">
+                                    <span>التعليقات : 4 </span>
+
+                                    <span class="dropdown">
+                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+الترتيب بحسب                             </a>
+
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item" href="#">التاريخ </a>
+                                <a class="dropdown-item" href="#">التعليقات الاحدث </a>
+                            </div>
+                    </span>
+                                </div>
+                                <div class="public-comments">
+                                    <div class="form-group">
+                                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" placeholder="اضافة تعليق عام "></textarea>
+                                        <button type="submit" class="btn btn-info mt-3"> تعليق                             </button>
+
+                                        <!--Comment form -->
+
+                                        <div class="card mt-5 mb-3">
+                                            <div class="card-body">
+                                                <div class="row mb-2">
+                                                    <div class="col-2">
+                                                        <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid" />
+                                                        <p class="text-secondary text-center">منذ 40 دقيقة </p>
+                                                    </div>
+                                                    <div class="col-md-10">
+                                                        <p>
+                                                            <a class="float-right mt-3 mt-md-4" href=""><strong>علي علي </strong></a>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+
+                                                        </p>
+                                                        <div class="clearfix"></div>
+                                                        <p>السلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكان ما با سلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكانسلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكان سلام عليكم اعتقد انه كام بالامكان
+                                                            اشياء كثرة في مكان
+                                                        </p>
+                                                        <p>
+                                                            <a class="float-right   btn  text-white btn-info mr-2 mt-4 reply "> <i class="fa fa-reply"></i> الردود</a>
+                                                            <a class="float-right btn text-white btn-info mt-4"> <i class="fa fa-heart"></i> أعجبني </a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card card-inner ml-5 mt-3">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-2">
+                                                                <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid" />
+                                                                <p class="text-secondary text-center">15 Minutes Ago</p>
+                                                            </div>
+                                                            <div class="col-md-10">
+                                                                <p><a href=""><strong> علي علي </strong></a></p>
+                                                                <p>السلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكان ما با سلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكانسلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكان سلام عليكم اعتقد انه
+                                                                    كام بالامكان اشياء كثرة في مكان</p>
+                                                                <p>
+                                                                    <a class="float-right btn text-white btn-info"> <i class="fa fa-heart"></i> أعجبني </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card mt-5 mb-3">
+                                            <div class="card-body">
+                                                <div class="row mb-2">
+                                                    <div class="col-2">
+                                                        <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid" />
+                                                        <p class="text-secondary text-center">منذ 40 دقيقة </p>
+                                                    </div>
+                                                    <div class="col-md-10">
+                                                        <p>
+                                                            <a class="float-right mt-3 mt-md-4" href=""><strong>علي علي </strong></a>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+
+                                                        </p>
+                                                        <div class="clearfix"></div>
+                                                        <p>السلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكان ما با سلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكانسلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكان سلام عليكم اعتقد انه كام بالامكان
+                                                            اشياء كثرة في مكان
+                                                        </p>
+                                                        <p>
+                                                            <a class="float-right btn  text-white btn-info mr-2 mt-4 reply"> <i class="fa fa-reply"></i> الردود</a>
+                                                            <a class="float-right btn text-white btn-info mt-4"> <i class="fa fa-heart"></i> أعجبني </a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card card-inner ml-5 mt-3">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-2">
+                                                                <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid" />
+                                                                <p class="text-secondary text-center">15 Minutes Ago</p>
+                                                            </div>
+                                                            <div class="col-md-10">
+                                                                <p><a href=""><strong> علي علي </strong></a></p>
+                                                                <p>السلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكان ما با سلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكانسلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكان سلام عليكم اعتقد انه
+                                                                    كام بالامكان اشياء كثرة في مكان</p>
+                                                                <p>
+                                                                    <a class="float-right btn text-white btn-info"> <i class="fa fa-heart"></i> أعجبني </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card mt-5 mb-3">
+                                            <div class="card-body">
+                                                <div class="row mb-2">
+                                                    <div class="col-2">
+                                                        <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid" />
+                                                        <p class="text-secondary text-center">منذ 40 دقيقة </p>
+                                                    </div>
+                                                    <div class="col-md-10">
+                                                        <p>
+                                                            <a class="float-right mt-3 mt-md-4" href=""><strong>علي علي </strong></a>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+                                                            <span class="float-left"><i class="text-warning fa fa-star"></i></span>
+
+                                                        </p>
+                                                        <div class="clearfix"></div>
+                                                        <p>السلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكان ما با سلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكانسلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكان سلام عليكم اعتقد انه كام بالامكان
+                                                            اشياء كثرة في مكان
+                                                        </p>
+                                                        <p>
+                                                            <a class="float-right btn  text-white btn-info mr-2 mt-4 "> <i class="fa fa-reply"></i> الردود</a>
+                                                            <a class="float-right btn text-white btn-info mt-4"> <i class="fa fa-heart"></i> أعجبني </a>
+                                                        </p>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card card-inner ml-5 mt-3">
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <div class="col-2">
+                                                                <img src="https://image.ibb.co/jw55Ex/def_face.jpg" class="img img-rounded img-fluid" />
+                                                                <p class="text-secondary text-center">15 Minutes Ago</p>
+                                                            </div>
+                                                            <div class="col-md-10">
+                                                                <p><a href=""><strong> علي علي </strong></a></p>
+                                                                <p>السلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكان ما با سلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكانسلام عليكم اعتقد انه كام بالامكان اشياء كثرة في مكان سلام عليكم اعتقد انه
+                                                                    كام بالامكان اشياء كثرة في مكان</p>
+                                                                <p>
+                                                                    <a class="float-right btn text-white btn-info"> <i class="fa fa-heart"></i> أعجبني </a>
+                                                                </p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                        <!--Suggest -->
+
+                        <div class="col-lg-5 order-1 order-lg-2">
+                            <p>الاقتراحات </p>
+
+                            <div class="card p-2 mb-4">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="img/thumbnail/app.jpg" class="w-100">
+                                    </div>
+                                    <div class="col-md-7">
+
+
+                                        <a href="watch.html">
+                                            <p class="card-title"> بسيبسي يسبسيل لبسيبلسلامي اليكا كيف تستخدم أدوات DexTools </p>
+                                        </a>
+
+                                        <small class="text-muted  ">
+                                    <i class="fas fa-film"></i><span> 3 ألاف مشاهدة </span>
+                    
+                                <a href="channel.html" class="channel-img d-sm-block ml-3 m-sm-0">
+                                        <img src="img/ch-logo.png" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                                        <span class="card-text"> أكاديمية حسوب </span>
+                                    </a>
+                                </small>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card p-2 mb-4">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="img/thumbnail/app.jpg" class="w-100">
+                                    </div>
+                                    <div class="col-md-7">
+
+
+                                        <a href="watch.html">
+                                            <p class="card-title"> بسيبسي يسبسيل لبسيبلسلامي اليكا كيف تستخدم أدوات DexTools </p>
+                                        </a>
+
+                                        <small class="text-muted  ">
+                                    <i class="fas fa-film"></i><span> 3 ألاف مشاهدة </span>
+                    
+                                <a href="channel.html" class="channel-img d-sm-block ml-3 m-sm-0">
+                                        <img src="img/ch-logo.png" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                                        <span class="card-text"> أكاديمية حسوب </span>
+                                    </a>
+                                </small>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card p-2 mb-4">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="img/thumbnail/app.jpg" class="w-100">
+                                    </div>
+                                    <div class="col-md-7">
+
+
+                                        <a href="watch.html">
+                                            <p class="card-title"> بسيبسي يسبسيل لبسيبلسلامي اليكا كيف تستخدم أدوات DexTools </p>
+                                        </a>
+
+                                        <small class="text-muted  ">
+                                    <i class="fas fa-film"></i><span> 3 ألاف مشاهدة </span>
+                    
+                                <a href="channel.html" class="channel-img d-sm-block ml-3 m-sm-0">
+                                        <img src="img/ch-logo.png" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                                        <span class="card-text"> أكاديمية حسوب </span>
+                                    </a>
+                                </small>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card p-2 mb-4">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="img/thumbnail/app.jpg" class="w-100">
+                                    </div>
+                                    <div class="col-md-7">
+
+
+                                        <a href="watch.html">
+                                            <p class="card-title"> بسيبسي يسبسيل لبسيبلسلامي اليكا كيف تستخدم أدوات DexTools </p>
+                                        </a>
+
+                                        <small class="text-muted  ">
+                                    <i class="fas fa-film"></i><span> 3 ألاف مشاهدة </span>
+                    
+                                <a href="channel.html" class="channel-img d-sm-block ml-3 m-sm-0">
+                                        <img src="img/ch-logo.png" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                                        <span class="card-text"> أكاديمية حسوب </span>
+                                    </a>
+                                </small>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card p-2 mb-4">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="img/thumbnail/app.jpg" class="w-100">
+                                    </div>
+                                    <div class="col-md-7">
+
+
+                                        <a href="watch.html">
+                                            <p class="card-title"> بسيبسي يسبسيل لبسيبلسلامي اليكا كيف تستخدم أدوات DexTools </p>
+                                        </a>
+
+                                        <small class="text-muted  ">
+                                    <i class="fas fa-film"></i><span> 3 ألاف مشاهدة </span>
+                    
+                                <a href="channel.html" class="channel-img d-sm-block ml-3 m-sm-0">
+                                        <img src="img/ch-logo.png" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                                        <span class="card-text"> أكاديمية حسوب </span>
+                                    </a>
+                                </small>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="card p-2 mb-4">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img src="img/thumbnail/app.jpg" class="w-100">
+                                    </div>
+                                    <div class="col-md-7">
+
+
+                                        <a href="watch.html">
+                                            <p class="card-title"> بسيبسي يسبسيل لبسيبلسلامي اليكا كيف تستخدم أدوات DexTools </p>
+                                        </a>
+
+                                        <small class="text-muted  ">
+                                    <i class="fas fa-film"></i><span> 3 ألاف مشاهدة </span>
+                    
+                                <a href="channel.html" class="channel-img d-sm-block ml-3 m-sm-0">
+                                        <img src="img/ch-logo.png" alt="channel image" class="rounded-circle my-2 ml-3" width="30px">
+                                        <span class="card-text"> أكاديمية حسوب </span>
+                                    </a>
+                                </small>
+
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <body>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="https://kit.fontawesome.com/f2607f9f37.js" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
+        <script src="js/watch.js"></script>
+
+
+</html>

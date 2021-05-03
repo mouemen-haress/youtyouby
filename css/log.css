@@ -1,0 +1,29 @@
+.history-right-column {
+    background-color: #fff;
+    height: 566px;
+}
+
+.list-group-item.active {
+    background-color: #bf40bf;
+    border-color: #bf40bf;
+}
+
+.history-page .remove {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    color: #2c3131c7;
+    cursor: pointer;
+}
+
+@media(max-width:768px) {
+    .card .card-top-image {
+        width: 100%;
+    }
+    .card .card-horizontal time {
+        left: 10px;
+    }
+    .card .card-horizontal fa-play {
+        right: 48px;
+    }
+}
